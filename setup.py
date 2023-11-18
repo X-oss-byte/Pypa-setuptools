@@ -173,7 +173,7 @@ setup_params = dict(
     python_requires='>=2.7,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*',
     extras_require={
         "ssl:sys_platform=='win32'": "wincertstore==0.2",
-        "certs": "certifi==2016.9.26",
+        "certs": "certifi==2023.11.17",
     },
     dependency_links=[
         pypi_link(
